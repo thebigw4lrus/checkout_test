@@ -5,9 +5,9 @@
   * Date: Jan 14, 2013
 =end 
 require 'test/unit'
-require './checkout'
-require './rules'
-require './product'
+require '../checkout'
+require '../rules'
+require '../product'
 
 class CheckoutTest < Test::Unit::TestCase
   #This list of constants represents the products wich we are going to use for 

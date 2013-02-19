@@ -5,11 +5,11 @@
   * Date: Jan 14, 2013
 =end 
 require 'test/unit'
-require './checkout'
-require './rules'
-require './product'
+require '../checkout'
+require '../rules'
+require '../product'
 
-class CheckoutReevoTestCases < Test::Unit::TestCase
+class CheckoutAcceptanceTestCases < Test::Unit::TestCase
   #This list of constants represents the products wich we are going to use for 
   #configure the rules. 
   PRODUCT_FR1 = Product.new("FR1", 3.11)
