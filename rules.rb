@@ -1,9 +1,9 @@
 =begin
   * Name: Rule 
   * Description: Represents the superclass for the rules.
-  * Input: Rule.new(item_id:string, quantity:integer[optional], price:double[optional])
-  *        If there is only 2 parameters, it will be read as > Rule.new(item_id, price), quantity will be 1 by default
-  *        If there is only 1 parameter, it will be read as > Rule.new(item_id), price will be 0 as default
+  * Input: Rule.new(Product.new(p_id, price), quantity[optional], price[optional])
+  *        If there is only 2 parameters, it will be read as > Rule.new(Product.new(p_id, price), price), quantity will be 1 by default
+  *        If there is only 1 parameter, it will be read as > Rule.new(Product.new(p_id, price)), price will be 0 as default
   * Author: Javier A. Contreras V.
   * Date: Jan 14, 2013
 =end 
