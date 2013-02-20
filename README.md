@@ -4,9 +4,6 @@
 ******* quest for global domination has prompted us to open a supermarket – we sell only three products:
 
 
-
-|Product |code Name    |Price
-
 |FR1      |Fruit tea         |£ 3.11
 
 |SR1      |Strawberries   |£ 5.00
