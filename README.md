@@ -6,11 +6,8 @@ Software Test
 
 
 |Product |code Name    |Price
-
 |FR1     |Fruit tea    |£ 3.11
-
 |SR1     |Strawberries |£ 5.00
-
 |CF1     |Coffee       |£11.23
 
 
@@ -27,7 +24,10 @@ co = Checkout.new(pricing_rules)
 co.scan(item)
 co.scan(item)
 Price = co.total
+
 -----------------------------------------------------------------------------------------------------------------------
+
 Implement a checkout system that fulfils these requirements in Ruby.
+
 -----------------------------------------------------------------------------------------------------------------------
 
