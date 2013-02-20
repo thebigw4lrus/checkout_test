@@ -6,8 +6,11 @@
 
 
 |Product |code Name    |Price
+
 |FR1      |Fruit tea         |£ 3.11
+
 |SR1      |Strawberries   |£ 5.00
+
 |CF1      |Coffee            |£11.23
 
 
@@ -21,8 +24,11 @@ The interface to our checkout looks like this (shown in Ruby):
 
 
 co = Checkout.new(pricing_rules)
+
 co.scan(item)
+
 co.scan(item)
+
 Price = co.total
 
 -----------------------------------------------------------------------------------------------------------------------
